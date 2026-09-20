@@ -1,16 +1,14 @@
-# RIĦA Perfumes — GitHub Pages
+# RIĦA Perfumes — GitHub Pages package
 
-This package is ready to publish as a GitHub Pages static site.
+Upload the contents of this folder to the top level of the GitHub repository.
 
-## Files
-- `index.html` — GitHub Pages entry file
-- `support.js` — launch countdown support script
-- `.nojekyll` — prevents Jekyll processing
-- `assets/riha-logo.png` — extracted RIĦA logo asset
-- `react/` — note about the supplied page not being a React app
+Required entry point:
+- index.html
 
-## Publish
-Upload the contents of this folder to the root of your GitHub repository, then enable GitHub Pages from the repository's Settings → Pages, using the main branch and `/ (root)`.
+Included:
+- index.html
+- support.js
+- .nojekyll
 
-Expected address:
-`https://nickcassar18.github.io/whatson-riha-perfumes/`
+The supplied landing page is self-contained and includes its embedded visual assets,
+so no separate image/assets folder is required for the current page.
